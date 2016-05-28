@@ -1,0 +1,11 @@
+[user]
+	name = Steven Garcia
+	email = webwhammy@gmail.com
+[github]
+	user = webdevel
+[color]
+	ui = true
+[core]
+	editor = vim
+[merge]
+	tool = diff
