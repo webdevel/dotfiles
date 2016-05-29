@@ -37,12 +37,20 @@ set switchbuf=usetab,newtab
 " set whitespace to visible characters
 set listchars=eol:¶,tab:»›,trail:·,extends:▷,precedes:◁,space:·,nbsp:·
 
-" toggle visibility of whitespace characters by control+w in normal mode
-nnoremap <C-W> :set invlist list?<CR>
+" toggle visibility of whitespace characters by control+l in normal mode
+nnoremap <c-l> :set invlist list?<CR>
 
 "" set .md to markdown file extension
 "autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 "
 "" enable fenced code block syntax highlighting
 "let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'java', 'php', 'c']
+
+" enable 256 colors
+set t_Co=256
+
+" enable pathogen plugin
+runtime bundle/pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+filetype plugin indent on
 
