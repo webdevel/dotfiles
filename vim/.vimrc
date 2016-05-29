@@ -37,8 +37,8 @@ set switchbuf=usetab,newtab
 " set whitespace to visible characters
 set listchars=eol:¶,tab:»›,trail:·,extends:▷,precedes:◁,space:·,nbsp:·
 
-" toggle visibility of whitespace characters by control+w in normal mode
-nnoremap <C-W> :set invlist list?<CR>
+" toggle visibility of whitespace characters by control+l in normal mode
+nnoremap <c-l> :set invlist list?<CR>
 
 "" set .md to markdown file extension
 "autocmd BufNewFile,BufReadPost *.md set filetype=markdown
