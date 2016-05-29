@@ -2,3 +2,7 @@
 	path = vim/.vim/bundle/pathogen
 	url = git@github.com:webdevel/vim-pathogen.git
 	branch = release-v2.4
+[submodule "vim/.vim/bundle/nerdtree"]
+	path = vim/.vim/bundle/nerdtree
+	url = git@github.com:webdevel/nerdtree.git
+	branch = release-5.0.0
