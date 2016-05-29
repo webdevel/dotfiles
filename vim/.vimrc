@@ -46,6 +46,9 @@ nnoremap <C-W> :set invlist list?<CR>
 "" enable fenced code block syntax highlighting
 "let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'java', 'php', 'c']
 
+" enable 256 colors
+set t_Co=256
+
 " enable pathogen plugin
 runtime bundle/pathogen/autoload/pathogen.vim
 execute pathogen#infect()
