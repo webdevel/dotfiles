@@ -6,3 +6,7 @@
 	path = vim/.vim/bundle/nerdtree
 	url = git@github.com:webdevel/nerdtree.git
 	branch = release-5.0.0
+[submodule "vim/.vim/bundle/ctrlp"]
+	path = vim/.vim/bundle/ctrlp
+	url = git@github.com:webdevel/ctrlp.vim.git
+	branch = release-1.79

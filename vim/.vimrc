@@ -54,3 +54,8 @@ runtime bundle/pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 filetype plugin indent on
 
+" search by file using regex settings for ctrlp
+let g:ctrlp_by_filename = 1
+let g:ctrlp_regexp = 1
+let g:ctrlp_show_hidden = 1
+
