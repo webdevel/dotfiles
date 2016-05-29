@@ -46,3 +46,8 @@ nnoremap <C-W> :set invlist list?<CR>
 "" enable fenced code block syntax highlighting
 "let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'java', 'php', 'c']
 
+" enable pathogen plugin
+runtime bundle/pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+filetype plugin indent on
+

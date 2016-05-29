@@ -1,0 +1,4 @@
+[submodule "vim/.vim/bundle/pathogen"]
+	path = vim/.vim/bundle/pathogen
+	url = git@github.com:webdevel/vim-pathogen.git
+	branch = release-v2.4
