@@ -55,7 +55,11 @@ execute pathogen#infect()
 filetype plugin indent on
 
 " search by file using regex settings for ctrlp
-let g:ctrlp_by_filename = 1
-let g:ctrlp_regexp = 1
-let g:ctrlp_show_hidden = 1
+let ctrlp_by_filename = 1
+let ctrlp_regexp = 1
+let ctrlp_show_hidden = 1
+
+" nerd tree options
+let NERDTreeShowHidden = 1
+let NERDTreeMinimalUI = 1
 

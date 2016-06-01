@@ -1,12 +1,16 @@
-[submodule "vim/.vim/bundle/pathogen"]
+[submodule "pathogen"]
 	path = vim/.vim/bundle/pathogen
 	url = git@github.com:webdevel/vim-pathogen.git
 	branch = release-v2.4
-[submodule "vim/.vim/bundle/nerdtree"]
+[submodule "nerdtree"]
 	path = vim/.vim/bundle/nerdtree
 	url = git@github.com:webdevel/nerdtree.git
 	branch = release-5.0.0
-[submodule "vim/.vim/bundle/ctrlp"]
+[submodule "ctrlp"]
 	path = vim/.vim/bundle/ctrlp
 	url = git@github.com:webdevel/ctrlp.vim.git
 	branch = release-1.79
+[submodule "tabulous"]
+	path = vim/.vim/bundle/tabulous
+	url = git@github.com:webdevel/tabulous.git
+	branch = release-0.2.0
